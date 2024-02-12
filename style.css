@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fce4ec; /* Light pink background */
+    font-family: 'Poppins', sans-serif;
+}
+
+#valentineContent {
+    text-align: center;
+}
+
+#valentineText {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff4081; /* Pink text color */
+    font-weight: 800;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.valentine-button {
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #ff4081; /* Pink button color */
+    color: white;
+    border: none;
+    translate: 1s;
+    font-family: 'Poppins', sans-serif;
+}
+.valentine-button:hover{
+font-size:20px ;
+}
+#happyCat {
+    display: none;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#loveText {
+    color: #ff4081; /* Pink text color */
+    font-size: 18px;
+    margin-top: 10px;
+}
